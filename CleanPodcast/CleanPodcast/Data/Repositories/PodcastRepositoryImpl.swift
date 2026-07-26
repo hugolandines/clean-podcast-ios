@@ -9,9 +9,9 @@ import Foundation
 
 final class PodcastRepositoryImpl: PodcastRepository {
 
-    private let dataSource: PodcastDataSource
+    private let dataSource: PodcastDataSourceProtocol
 
-    init(dataSource: PodcastDataSource) {
+    init(dataSource: PodcastDataSourceProtocol) {
         self.dataSource = dataSource
     }
     

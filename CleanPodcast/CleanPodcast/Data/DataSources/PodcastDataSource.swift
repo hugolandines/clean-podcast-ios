@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class PodcastDataSource {
+final class PodcastDataSource: PodcastDataSourceProtocol {
     
     private let networkClient: NetworkClient
     

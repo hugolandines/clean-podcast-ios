@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Podcast: Identifiable {
+struct Podcast: Identifiable, Equatable {
     let id: Int
     let name: String
     let artist: String
