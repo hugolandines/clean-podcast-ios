@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct SearchPodcastsUseCase {
+struct SearchPodcastsUseCase: SearchPodcastsUseCaseProtocol {
 
     private let repository: PodcastRepository
 

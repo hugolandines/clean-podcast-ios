@@ -14,9 +14,9 @@ final class PodcastListViewModel {
 
     var state = PodcastListState()
 
-    private let searchPodcastsUseCase: SearchPodcastsUseCase
+    private let searchPodcastsUseCase: SearchPodcastsUseCaseProtocol
 
-    init(searchPodcastsUseCase: SearchPodcastsUseCase) {
+    init(searchPodcastsUseCase: SearchPodcastsUseCaseProtocol) {
         self.searchPodcastsUseCase = searchPodcastsUseCase
     }
     
